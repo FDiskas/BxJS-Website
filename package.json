@@ -14,7 +14,8 @@
     "format": "prettier --write \"**/*.{json,md,css,js}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "lint": "eslint --ext .ts --ext .tsx ."
   },
   "repository": {
     "type": "git",
