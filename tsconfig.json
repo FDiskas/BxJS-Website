@@ -1,0 +1,23 @@
+{
+  "include": ["./src/**/*", "./plugins/**/*"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom", "es2017", "dom.iterable"],
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react",
+    "strict": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "removeComments": true
+  }
+}
